@@ -1,17 +1,17 @@
-project_name: "viz-liquid_fill_gauge-marketplace"
+project_name: "orange-dashboard-looker"
 
 constant: VIS_LABEL {
-  value: "Liquid Fill Gauge"
+  value: "orange_viz_label"
   export: override_optional
 }
 
 constant: VIS_ID {
-  value: "liquid_fill_gauge-marketplace"
+  value: "orange_viz_id"
   export:  override_optional
 }
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://marketplace-api.looker.com/viz-dist/liquid_fill_gauge.js"
+  url: "https://github.com/PedramReact/NewTestOrgViz/blob/main/graph.js"
   label: "@{VIS_LABEL}"
 }

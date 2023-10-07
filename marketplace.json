@@ -1,9 +1,9 @@
 {
-  "label": "Liquid Fill Gauge Visualization",
+  "label": "orange_viz_label",
   "category_label": "Plug-ins",
   "branding": {
-    "image_uri": "https://marketplace-api.looker.com/visualization-screenshots/fill_icon.png",
-    "tagline": "Calculate your progress towards a goal with the Liquid Fill Gauge Visualization."
+    "image_uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIE4w2uBXnwVuAkX3c18Ev6nqrZR-Ki_nJ8j6lt0U&s",
+    "tagline": "Calculate your progress."
   },
 
     "constants": {
@@ -12,7 +12,7 @@
             "description": "This label will appear in the visualization selector in the Looker Explore UI."
         },
         "VIS_ID": {
-            "label": "Visualization ID",
+            "label": "Visualization ID_222222222222222",
             "description": "This ID must be unique across all custom visualizations on your instance.",
             "value_constraint": "visualization"
         }
