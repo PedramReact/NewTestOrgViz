@@ -1,20 +1,18 @@
 {
-  "label": "orange_viz_label",
-  "category_label": "visualization",
-  "branding": {
-    "image_uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIE4w2uBXnwVuAkX3c18Ev6nqrZR-Ki_nJ8j6lt0U&s",
-    "tagline": "Calculate your progress."
-  },
-
+    "label": "My Custom Orange Visualization",
+    "category_label": "Custom Visualizations",
+    "branding": {
+      "image_uri": "https://example.com/my-custom-visualization-icon.png",
+      "tagline": "A custom visualization using JavaScript for Looker."
+    },
     "constants": {
-        "VIS_LABEL": {
-            "label": "Visualization Label",
-            "description": "This label will appear in the visualization selector in the Looker Explore UI."
-        },
-        "VIS_ID": {
-            "label": "Visualization ID_222222222222222_test",
-            "description": "This ID must be unique across all custom visualizations on your instance.",
-            "value_constraint": "visualization"
-        }
+      "VIS_LABEL": {
+        "label": "My Custom Orange Visualization",
+        "description": "This label will appear in the visualization selector in the Looker Explore UI."
+      },
+      "VIS_ID": {
+        "label": "My_Custom_Orange_Visualization_ID",
+        "description": "This ID must be unique across all custom visualizations on your instance."
+      }
     }
-}
+  }
