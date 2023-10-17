@@ -1,4 +1,4 @@
-project_name: "orange_vis_looker_custom"
+project_name: "orange-dashboard-looker"
 
 constant: VIS_LABEL {
   value: "Orange-Vis-Looker"
